@@ -1,0 +1,55 @@
+.signupWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 80vw;
+  /* height: calc(100vh - 200px); */
+}
+
+.signupHeader {
+  font-size: 48px;
+  font-weight: bold;
+  width: inherit;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.signupButton {
+  background-color: #3861fb;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: bold;
+  width: 30%;
+  margin: 10px;
+  margin-top: 30px;
+  padding: 15px 30px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.signupButton:disabled {
+  background-color: #7591f7;
+  cursor: not-allowed;
+}
+
+.login {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #16c784;
+  border: none;
+  outline: none;
+}
+
+.errorMessage {
+  color: #ea3943;
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: bold;
+}

@@ -1,0 +1,110 @@
+.detailsWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin: 10px 50px;
+}
+
+.left {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  padding: 25px 0;
+}
+
+.meta {
+  display: flex;
+  gap: 25px;
+  justify-content: flex-start;
+}
+
+.photo {
+  margin: 10px auto;
+}
+
+.photo img {
+  border-radius: 10px;
+}
+
+.controls {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 20px;
+}
+.right {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 40%;
+}
+
+.editButton {
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #16c784;
+  border-radius: 10px;
+  font-weight: bold;
+  height: fit-content;
+}
+
+.editButton:hover {
+  background-color: #17ae74;
+}
+
+.deleteButton {
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #ea3943;
+  border-radius: 10px;
+  font-weight: bold;
+  height: fit-content;
+}
+
+.deleteButton:hover {
+  background-color: #e01822;
+}
+
+.postCommentButton {
+  background-color: #3861fb;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px 40px;
+  font-size: 15px;
+  height: fit-content;
+}
+
+.postCommentButton:hover {
+  background-color: #1f4ffd;
+}
+
+.input {
+  border: none;
+  outline: none;
+  color: #bebcc0;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 10px 15px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  flex: 1;
+}
+.postComment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
